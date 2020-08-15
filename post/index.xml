@@ -12,14 +12,27 @@
     
     
     <item>
-      <title>Markdown语法汇总</title>
+      <title>如何利用hugo以及github部署个人博客</title>
       <link>https://li19980125.github.io/post/blog1/</link>
       <pubDate>Sat, 15 Aug 2020 09:33:56 +0800</pubDate>
       
       <guid>https://li19980125.github.io/post/blog1/</guid>
-      <description>myblog1的修改与发布 回到myblog目录
+      <description>如何首次将myblog部署到github上 首先电脑需要安装git bash，在github上配置好本机的ssh密钥，以及安装好hugo，并设置好环境变量
+紧接着利用git bash键入如下命令建立自己的博客源文件:
+hugo new site myblog 接着在hugo官网上下载一款主题，利用git clone命令就可以，注意放在目录E:\hugo\myblog\themes中
+可以尝试在本地启动hugo以预览效果(hugo server 类命令只能在根目录运用)
+hugo server -t m10c -D 按ctrl+c可以退出预览
+新建一篇文章：
+hugo new post/myblog.md 接下来在github上创建一个空的repository（注意：repository的名字必须是固定的，我的是：li19980125.github.io）
+在仓库建好之后，接下来在根目录中执行以下命令：
+hugo -t m10c --baseUrl=&amp;quot;https://li19980125.github.io/&amp;quot; -D 上述命令会在根目录中生成一个public文件
+紧接着要只要把public文件发布在github上，需要进入public目录中键入如下命令：
+git init git add . git commit -m update 紧接着回到根目录键入命令：
+git remote add origin https://github.com/li19980125/li19980125.github.io.git git push -u origin master 这里已经将myblog整个文件统一上传至github上了
+最后在浏览器中搜索域名：li19980125.github.io即可查看到初次部署好的个人博客
+myblog的第二次修改与发布 回到myblog目录：E:\hugo\myblog
 hugo -t m10c --baseUrl=&amp;quot;https://li19980125.github.io/&amp;quot; -D 更新public目录中的html格式文件myblog
-cd public\ 进入public目录中用三部曲发布：
+cd public\ 进入public目录E:\hugo\myblog\public 按如下命令发布：
 git add . git commit -m update git push -f </description>
     </item>
     
