@@ -17,10 +17,10 @@
       <pubDate>Sat, 15 Aug 2020 09:33:56 +0800</pubDate>
       
       <guid>https://li19980125.github.io/post/blog1/</guid>
-      <description>#标题 &#39;&amp;rsquo;&amp;rsquo;
-一级标题 二级标题 三级标题 四级标题 五级标题 六级标题 &#39;&amp;rsquo;&amp;rsquo;
-#段落 ##段落 分段直接打“回车”就可以
-##字体 &#39;&amp;rsquo;&amp;rsquo; 斜体文本 粗体文本 粗斜体文本 删除线 &#39;&amp;rsquo;&amp;rsquo;</description>
+      <description>myblog1的修改与发布 回到myblog目录
+hugo -t m10c --baseUrl=&amp;quot;https://li19980125.github.io/&amp;quot; -D 更新public目录中的html格式文件myblog
+cd public\ 进入public目录中用三部曲发布：
+git add . git commit -u update git push -f </description>
     </item>
     
   </channel>
