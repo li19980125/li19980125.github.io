@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>The blog of Bruce LEE</title>
     <link>https://li19980125.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on The blog of Bruce LEE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Aug 2020 09:33:56 +0800</lastBuildDate>
@@ -12,12 +12,15 @@
     
     
     <item>
-      <title>Blog1</title>
+      <title>Markdown语法汇总</title>
       <link>https://li19980125.github.io/post/blog1/</link>
       <pubDate>Sat, 15 Aug 2020 09:33:56 +0800</pubDate>
       
       <guid>https://li19980125.github.io/post/blog1/</guid>
-      <description></description>
+      <description>#标题 &#39;&amp;rsquo;&amp;rsquo;
+一级标题 二级标题 三级标题 四级标题 五级标题 六级标题 &#39;&amp;rsquo;&amp;rsquo;
+#段落 ##段落 分段直接打“回车”就可以
+##字体 &#39;&amp;rsquo;&amp;rsquo; 斜体文本 粗体文本 粗斜体文本 删除线 &#39;&amp;rsquo;&amp;rsquo;</description>
     </item>
     
   </channel>
