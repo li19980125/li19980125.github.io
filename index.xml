@@ -20,7 +20,7 @@
       <description>myblog1的修改与发布 回到myblog目录
 hugo -t m10c --baseUrl=&amp;quot;https://li19980125.github.io/&amp;quot; -D 更新public目录中的html格式文件myblog
 cd public\ 进入public目录中用三部曲发布：
-git add . git commit -u update git push -f </description>
+git add . git commit -m update git push -f </description>
     </item>
     
   </channel>
